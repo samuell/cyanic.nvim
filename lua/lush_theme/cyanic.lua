@@ -266,7 +266,7 @@ local theme = lush(function(injected_functions)
     PreCondit                              { PreProc }, -- PreCondit      xxx links to PreProc
     sym"@preproc"                          { PreProc }, -- @preproc       xxx links to PreProc
     elixirAtom                             { PreProc }, -- elixirAtom     xxx links to PreProc
-    Type                                   { fg="#87af87", }, -- Type           xxx ctermfg=110 guifg=#87afd7
+    Type                                   { fg="#87af87", }, -- Type           xxx ctermfg=110 guifg=#87af87
     StorageClass                           { Type }, -- StorageClass   xxx links to Type
     Structure                              { Type }, -- Structure      xxx links to Type
     Typedef                                { Type }, -- Typedef        xxx links to Type
@@ -317,7 +317,7 @@ local theme = lush(function(injected_functions)
     DiagnosticUnderlineInfo                { sp="lightblue", gui="underline", }, -- DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=LightBlue
     DiagnosticUnderlineHint                { sp="lightgrey", gui="underline", }, -- DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=LightGrey
     DiagnosticUnderlineOk                  { sp="lightgreen", gui="underline", }, -- DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=LightGreen
-    Comment                                { fg="#87afd7", }, -- Comment        xxx ctermfg=243 guifg=#337733
+    Comment                                { fg="#87afd7", }, -- Comment        xxx ctermfg=243 guifg=#87afd7
     sym"@text.literal"                     { Comment }, -- @text.literal  xxx links to Comment
     sym"@comment"                          { Comment }, -- @comment       xxx links to Comment
     NvimTreeGitIgnored                     { Comment }, -- NvimTreeGitIgnored xxx links to Comment
