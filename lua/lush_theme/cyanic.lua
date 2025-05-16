@@ -177,7 +177,7 @@ local theme = lush(function(injected_functions)
     sym"@text.todo"                        { Todo }, -- @text.todo     xxx links to Todo
     luaTodo                                { Todo }, -- luaTodo        xxx links to Todo
     PopupNotification                      { Todo }, -- PopupNotification xxx links to Todo
-    String                                 { fg="#87af87", }, -- String         xxx ctermfg=108 guifg=#87af87
+    String                                 { fg="#af8687", }, -- String         xxx ctermfg=108 guifg=#af8787
     sym"@string"                           { String }, -- @string        xxx links to String
     NvimString                             { String }, -- NvimString     xxx links to String
     markdownUrl                            { String }, -- markdownUrl    xxx links to String
