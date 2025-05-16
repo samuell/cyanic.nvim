@@ -317,7 +317,7 @@ local theme = lush(function(injected_functions)
     DiagnosticUnderlineInfo                { sp="lightblue", gui="underline", }, -- DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=LightBlue
     DiagnosticUnderlineHint                { sp="lightgrey", gui="underline", }, -- DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=LightGrey
     DiagnosticUnderlineOk                  { sp="lightgreen", gui="underline", }, -- DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=LightGreen
-    Comment                                { fg="#87afd7", }, -- Comment        xxx ctermfg=243 guifg=#87afd7
+    Comment                                { fg="#87af87", }, -- Comment        xxx ctermfg=243 guifg=#87af87
     sym"@text.literal"                     { Comment }, -- @text.literal  xxx links to Comment
     sym"@comment"                          { Comment }, -- @comment       xxx links to Comment
     NvimTreeGitIgnored                     { Comment }, -- NvimTreeGitIgnored xxx links to Comment
