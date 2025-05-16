@@ -49,7 +49,7 @@ local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
     SignColumn                             { bg="None", fg="None" }, -- SignColumn
-    SpecialKey                             { fg="#585858", }, -- SpecialKey     xxx ctermfg=240 guifg=#585858
+    SpecialKey                             { fg="#cc0000", }, -- SpecialKey     xxx ctermfg=240 guifg=#585858
     EndOfBuffer                            { fg="#585858", }, -- EndOfBuffer    xxx ctermfg=240 guifg=#585858
     NvimTreeEndOfBuffer                    { EndOfBuffer }, -- NvimTreeEndOfBuffer xxx links to EndOfBuffer
     TermCursor                             { gui="reverse", }, -- TermCursor     xxx cterm=reverse gui=reverse
@@ -68,10 +68,10 @@ local theme = lush(function(injected_functions)
     NvimTreeEmptyFolderName                { Directory }, -- NvimTreeEmptyFolderName xxx links to Directory
     TelescopePreviewDirectory              { Directory }, -- TelescopePreviewDirectory xxx links to Directory
     TelescopePreviewDate                   { Directory }, -- TelescopePreviewDate xxx links to Directory
-    ErrorMsg                               { bg="#1c1c1c", gui="reverse", fg="#d75f5f", }, -- ErrorMsg       xxx cterm=reverse ctermfg=167 ctermbg=234 gui=reverse guifg=#d75f5f guibg=#1c1c1c
+    ErrorMsg                               { bg="#ff0000", gui="reverse", fg="#d75f5f", }, -- ErrorMsg       xxx cterm=reverse ctermfg=167 ctermbg=234 gui=reverse guifg=#d75f5f guibg=#1c1c1c
     NvimInvalidSpacing                     { ErrorMsg }, -- NvimInvalidSpacing xxx links to ErrorMsg
     LazyTaskError                          { ErrorMsg }, -- LazyTaskError  xxx links to ErrorMsg
-    IncSearch                              { fg="#1c1c1c", bg="#ffaf5f", }, -- IncSearch      xxx ctermfg=234 ctermbg=215 guifg=#1c1c1c guibg=#ffaf5f
+    IncSearch                              { fg="#afaf1c", bg="#ffaf5f", }, -- IncSearch      xxx ctermfg=234 ctermbg=215 guifg=#afafc1 guibg=#ffaf5f
     LazyH1                                 { IncSearch }, -- LazyH1         xxx links to IncSearch
     Search                                 { fg="#1c1c1c", bg="#87af87", }, -- Search         xxx ctermfg=234 ctermbg=108 guifg=#1c1c1c guibg=#87af87
     Substitute                             { Search }, -- Substitute     xxx links to Search
@@ -177,7 +177,7 @@ local theme = lush(function(injected_functions)
     sym"@text.todo"                        { Todo }, -- @text.todo     xxx links to Todo
     luaTodo                                { Todo }, -- luaTodo        xxx links to Todo
     PopupNotification                      { Todo }, -- PopupNotification xxx links to Todo
-    String                                 { fg="#af8687", }, -- String         xxx ctermfg=108 guifg=#af8787
+    String                                 { fg="#990099", }, -- String         xxx ctermfg=108 guifg=#990099
     sym"@string"                           { String }, -- @string        xxx links to String
     NvimString                             { String }, -- NvimString     xxx links to String
     markdownUrl                            { String }, -- markdownUrl    xxx links to String
@@ -186,7 +186,7 @@ local theme = lush(function(injected_functions)
     luaString2                             { String }, -- luaString2     xxx links to String
     luaString                              { String }, -- luaString      xxx links to String
     elixirDocTest                          { String }, -- elixirDocTest  xxx links to String
-    Constant                               { fg="#d7875f", }, -- Constant       xxx ctermfg=173 guifg=#d7875f
+    Constant                               { fg="#3333ff", }, -- Constant       xxx ctermfg=173 guifg=#3333ff
     Number                                 { Constant }, -- Number         xxx links to Constant
     Boolean                                { Constant }, -- Boolean        xxx links to Constant
     sym"@constant"                         { Constant }, -- @constant      xxx links to Constant
@@ -317,7 +317,7 @@ local theme = lush(function(injected_functions)
     DiagnosticUnderlineInfo                { sp="lightblue", gui="underline", }, -- DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=LightBlue
     DiagnosticUnderlineHint                { sp="lightgrey", gui="underline", }, -- DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=LightGrey
     DiagnosticUnderlineOk                  { sp="lightgreen", gui="underline", }, -- DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=LightGreen
-    Comment                                { fg="#767676", }, -- Comment        xxx ctermfg=243 guifg=#767676
+    Comment                                { fg="#337733", }, -- Comment        xxx ctermfg=243 guifg=#337733
     sym"@text.literal"                     { Comment }, -- @text.literal  xxx links to Comment
     sym"@comment"                          { Comment }, -- @comment       xxx links to Comment
     NvimTreeGitIgnored                     { Comment }, -- NvimTreeGitIgnored xxx links to Comment
