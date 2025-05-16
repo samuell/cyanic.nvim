@@ -177,7 +177,7 @@ local theme = lush(function(injected_functions)
     sym"@text.todo"                        { Todo }, -- @text.todo     xxx links to Todo
     luaTodo                                { Todo }, -- luaTodo        xxx links to Todo
     PopupNotification                      { Todo }, -- PopupNotification xxx links to Todo
-    String                                 { fg="#af87af", }, -- String         xxx ctermfg=108 guifg=#990099
+    String                                 { fg="#d7875f", }, -- String         xxx ctermfg=108 guifg=#990099
     sym"@string"                           { String }, -- @string        xxx links to String
     NvimString                             { String }, -- NvimString     xxx links to String
     markdownUrl                            { String }, -- markdownUrl    xxx links to String
@@ -186,7 +186,7 @@ local theme = lush(function(injected_functions)
     luaString2                             { String }, -- luaString2     xxx links to String
     luaString                              { String }, -- luaString      xxx links to String
     elixirDocTest                          { String }, -- elixirDocTest  xxx links to String
-    Constant                               { fg="#8787af", }, -- Constant       xxx ctermfg=173 guifg=#3333ff
+    Constant                               { fg="#87afaf", }, -- Constant       xxx ctermfg=173 guifg=#3333ff
     Number                                 { Constant }, -- Number         xxx links to Constant
     Boolean                                { Constant }, -- Boolean        xxx links to Constant
     sym"@constant"                         { Constant }, -- @constant      xxx links to Constant
@@ -266,7 +266,7 @@ local theme = lush(function(injected_functions)
     PreCondit                              { PreProc }, -- PreCondit      xxx links to PreProc
     sym"@preproc"                          { PreProc }, -- @preproc       xxx links to PreProc
     elixirAtom                             { PreProc }, -- elixirAtom     xxx links to PreProc
-    Type                                   { fg="#87afd7", }, -- Type           xxx ctermfg=110 guifg=#87afd7
+    Type                                   { fg="#87af87", }, -- Type           xxx ctermfg=110 guifg=#87afd7
     StorageClass                           { Type }, -- StorageClass   xxx links to Type
     Structure                              { Type }, -- Structure      xxx links to Type
     Typedef                                { Type }, -- Typedef        xxx links to Type
@@ -317,7 +317,7 @@ local theme = lush(function(injected_functions)
     DiagnosticUnderlineInfo                { sp="lightblue", gui="underline", }, -- DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=LightBlue
     DiagnosticUnderlineHint                { sp="lightgrey", gui="underline", }, -- DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=LightGrey
     DiagnosticUnderlineOk                  { sp="lightgreen", gui="underline", }, -- DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=LightGreen
-    Comment                                { fg="#337733", }, -- Comment        xxx ctermfg=243 guifg=#337733
+    Comment                                { fg="#87afd7", }, -- Comment        xxx ctermfg=243 guifg=#337733
     sym"@text.literal"                     { Comment }, -- @text.literal  xxx links to Comment
     sym"@comment"                          { Comment }, -- @comment       xxx links to Comment
     NvimTreeGitIgnored                     { Comment }, -- NvimTreeGitIgnored xxx links to Comment
