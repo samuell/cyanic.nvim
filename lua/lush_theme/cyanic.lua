@@ -177,7 +177,7 @@ local theme = lush(function(injected_functions)
     sym"@text.todo"                        { Todo }, -- @text.todo     xxx links to Todo
     luaTodo                                { Todo }, -- luaTodo        xxx links to Todo
     PopupNotification                      { Todo }, -- PopupNotification xxx links to Todo
-    String                                 { fg="#990099", }, -- String         xxx ctermfg=108 guifg=#990099
+    String                                 { fg="#af87af", }, -- String         xxx ctermfg=108 guifg=#990099
     sym"@string"                           { String }, -- @string        xxx links to String
     NvimString                             { String }, -- NvimString     xxx links to String
     markdownUrl                            { String }, -- markdownUrl    xxx links to String
@@ -186,7 +186,7 @@ local theme = lush(function(injected_functions)
     luaString2                             { String }, -- luaString2     xxx links to String
     luaString                              { String }, -- luaString      xxx links to String
     elixirDocTest                          { String }, -- elixirDocTest  xxx links to String
-    Constant                               { fg="#3333ff", }, -- Constant       xxx ctermfg=173 guifg=#3333ff
+    Constant                               { fg="#8787af", }, -- Constant       xxx ctermfg=173 guifg=#3333ff
     Number                                 { Constant }, -- Number         xxx links to Constant
     Boolean                                { Constant }, -- Boolean        xxx links to Constant
     sym"@constant"                         { Constant }, -- @constant      xxx links to Constant
